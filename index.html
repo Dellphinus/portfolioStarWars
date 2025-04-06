@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <script src="script.js" defer></script>
+
+    <div class="stars"></div>
+
+    <!--PRIMEIRA PAGINA-->
+    <section class="page" id="inicio">
+    <div class="container">
+        <div class="profile">
+            <img src="Imagens/Perfil.jpeg">
+        </div>
+        <h1>Matheus Batista ribeiro</h1>
+        <h2>&lt;/Desenvolvedor Fullstack&gt;</h2>
+        
+        <div class="social-icons">
+            <a href="https://github.com/Dellphinus" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/ribeiromb/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:matheus-ribeiro-14@outlook.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/5511943719147" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#sobre">&lt;Sobre mim&gt;</a></li>
+                <li><a href="#projetos">&lt;Projetos&gt;</a></li>
+                <li><a href="#" onclick="abrirFormulario()">&lt;Deixe seu contato!&gt;</a></li>
+            </ul>
+        </nav>
+    </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section class="page" id="sobre">
+        <h1>Sobre Mim</h1>
+            <div class="star-wars-intro">
+            <div class="intro-text">
+            <div class="crawl">
+        <p>Meu nome é Matheus Batista Ribeiro e sou um estudante de Análise e Desenvolvimento de Sistemas apaixonado por tecnologia. Desde que comecei minha jornada, venho estudando e aprimorando meus conhecimentos em HTML, CSS, JavaScript, Java, SQL e Python. Além disso, tenho um grande interesse em UI e UX, pois acredito que interfaces bem projetadas fazem toda a diferença na experiência do usuário.
+
+            Ainda não tive a oportunidade de desenvolver projetos práticos, mas estou constantemente buscando aprendizado e explorando formas de aplicar o que estudo. Meu foco é me tornar um desenvolvedor full stack, criando soluções intuitivas, eficientes e acessíveis.
+            
+            Estou determinado a conquistar meu primeiro emprego na área de tecnologia, pois quero transformar meu conhecimento em prática e evoluir profissionalmente. Meu objetivo a longo prazo é garantir estabilidade para minha família, trabalhando com o que gosto e contribuindo para o desenvolvimento de soluções que facilitem a vida das pessoas..</p>
+            </div>
+            </div>
+        </div>
+            <div class="tech-icons">
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-java-plain colored"></i>
+                <i class="devicon-python-plain colored"></i>
+                <i class="devicon-mysql-plain colored"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="page" id="projetos">
+        <h1>Meus Projetos</h1>
+
+        <div class="container">
+
+            <div class="duel">
+                <img src="Imagens/png.monster-381.png" alt="Duel Animation" class="duel-animation">
+                <div class="darth-wrapper">
+                  <div class="darth">
+                    <span class="aguarde-msg">Aguarde...</span>
+                    <img src="Imagens/png.monster-353.png" alt="Mini Darth">
+                    
+                  </div>
+                </div>
+              </div>
+    </section>
+
+
+                <!-- FORMULÁRIO -->
+    <div id="formulario-container">
+        <div class="formulario">
+            <h3>Contato</h3>
+            <form id="formulario">
+                <input type="text" id="nome" placeholder="Seu nome" required>
+                <input type="email" id="email" placeholder="Seu e-mail" required>
+                <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+                <button type="button" onclick="fecharFormulario()">Fechar</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<video autoplay loop muted playsinline class="video-bg">
+    <source src="Imagens/fundo.mp4" type="video/mp4">
+</video>
